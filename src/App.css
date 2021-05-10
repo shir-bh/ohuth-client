@@ -1,0 +1,90 @@
+.App {
+  text-align: center;
+}
+.top-box{
+  display: flex;
+  align-items: center;
+}
+h1{
+  padding-bottom: .6rem;
+}
+.logo {
+  height: 10vmin;
+  pointer-events: none;
+}
+.profile-box{
+  /* border:deeppink 1px solid; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1rem;
+  margin: 2rem;
+  border-radius: 8px;
+}
+.profile-box p{
+  margin-bottom: 1rem;
+}
+.profile-img{
+  border-radius: 50%;
+  width: 80px;
+}
+.content{
+  margin: 1rem;
+}
+.buttons-box{
+  display:flex;
+}
+.btn {
+  border:none;
+  outline: none;
+  background-color: #61dafb;
+  color:white;
+  color: #282c34;
+  padding: .5rem 1.8rem;
+  border-radius: 6px;
+  font-size: 1.2rem;
+  font-weight: bold;
+  cursor: pointer;
+  margin: .3rem;
+  text-transform: capitalize;
+}
+.oauth-btn {
+  border:none;
+  outline: none;
+  background-color: #61dafb;
+  color:white;
+  color: #282c34;
+  padding: .5rem .7rem;
+  border-radius: 6px;
+  font-size: 1.6rem;
+  font-weight: bold;
+  cursor: pointer;
+  margin: .3rem;
+  text-transform: capitalize;
+}
+@media (prefers-reduced-motion: no-preference) {
+  .logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+  text-align: left;
+}
+
+.lightblue-text {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
